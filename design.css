@@ -530,7 +530,7 @@ margin-bottom: .5rem;
 
 
 
-/* trainig and ex section-------------------*/
+/* trainig and ex section------THIS SEC WILL BE USED FOR CHALLANGE PART -------------*/
 .training-and-ex-section{
     flex-direction: column;
     justify-content: flex-start;
@@ -556,17 +556,38 @@ margin-bottom: .5rem;
 
 }
 
-
+/*BMI section -----------------------------------------*/
 .bmi-section{
-    border: 2px solid rgb(163, 5, 242);/* need to rmv ltr*/
-    width: 40%;
-    margin: 0 auto;
+   
+    width: 50%;
     text-align: start;
-
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 0 auto;
 
 }
+
+.bmi-section h3{
+color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: .5rem;
+margin-bottom: .5rem;
+
+}
+.bmi-section p{
+color: rgba(255, 255, 255, 0.5);
+
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+margin-top: 0;
+    
+}
+
 
 /* bmi calc form section -----------------*/
 
@@ -574,25 +595,89 @@ margin-bottom: .5rem;
     justify-content:space-around;
   
     width: 100%;
-    height: 20rem; /* need to take off to adjust auto height */
+    
     border: 1px green solid;
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+
+}
+
+.bmi-cal-chart-container h3 , .bmi-calculation-form-container h3{
+
+    color: rgb(255, 255, 255);
+   
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.bmi-calculation-form-container h3{
+    margin-bottom: 2rem;
+}
+.bmi-calculation-form-container p{
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.3px;
+text-align: left;
+
 
 }
 
 .bmi-cal-chart-container{
-  
-    width: 40%;
-    height: 5rem;/* need to take off to adjust auto height */
 
-    border: 1px rgb(233, 7, 154) solid;
+    border: none;
+    width: 40%;
+   
 
 }
 
 .bmi-calculation-form-container{
     width: 40%;
-    height: 5rem;/* need to take off to adjust auto height */
-    border: 1px rgb(233, 7, 154) solid;
 
+    border: 1px solid red;
+
+}
+form{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+input{
+   margin-bottom: .5rem;
+    width: 45%;
+    height: 2rem;
+
+    align-items: center;
+
+    border-radius: 4px;
+
+    background: rgba(255, 255, 255, 0.1);
+
+
+   
+}
+.activity-for{
+    width: 92.5%;
+
+}
+.bmi-calc-table {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin-bottom: 2rem;
+  
+
+}
+
+.bmi-calc-table th, .bmi-calc-table td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 8px 8px 8px;
+   
+    
 }
 
 /* meet our team section ------------------*/
@@ -949,7 +1034,7 @@ border-radius: 100%;
 
 
 .run-extra-mile-section-writings{
-    border: 2px solid rgb(227, 125, 9);
+ 
     width: auto; /* Q? I wanted to use calc(100%-5rem) (since i have padding left 5rem)but it is not working it is taking margin right and shrinking from right side i did not understand it, thn just adjusted with auto, for this reason i could not keep the button at the middle using margin 0 auto then i adjusted it using padding 3rem to keep it in the middle*/
     padding-left: 5rem;
     flex-direction: column;
@@ -994,7 +1079,7 @@ margin-bottom: .5rem;
         /* this button has overridden class from join club now button , then adjusted paddings */
         padding: 12px 40px 12px 40px; 
         text-decoration: none;
-        margin: 0 1rem 0 3rem; /*i could not center the button using margin auto so did it manually, */
+        margin: 0 1rem 0 4.5rem; /*i could not center the button using margin auto so did it manually, */
       
     }  
 
@@ -1023,6 +1108,56 @@ margin-bottom: .5rem;
     border-radius: 15px;
   
     }
+
+/*BMI section*/
+.bmi-section{
+   
+    width: 90%;
+    text-align: start;
+    margin: 0 auto;
+    margin-left: 1.5rem;
+
+}
+.bmi-section p{
+   
+    width: 70%;
+  
+
+}
+
+/*BMI calc form section*/
+
+.bmi-calculation-sec{
+   
+    width: 90%;
+    text-align: start;
+    margin: 0 auto;
+    margin-left: 1.5rem;
+
+    flex-direction: column;
+
+}
+
+.bmi-cal-chart-container{
+
+    border: none;
+    width: 100%;
+   
+
+}
+
+.bmi-calculation-form-container{
+    width: 100%;
+    border: none;
+
+  
+
+}
+
+
+
+
+
 
 
 }
