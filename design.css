@@ -434,25 +434,102 @@ padding: 0 0 0 0;
     border: 2px solid rgb(163, 5, 242);
     width: 90%;
     margin: 0 auto;
-    height: 200px;  /* need to rmv ltr*/
+  
     margin-top: 2rem;
   
     justify-content: space-around; /* as its children taking up 100% of its space , 50-50, they do not have space to leave around*/
 
 
+    border-radius: 18px;
+
+    background: rgb(34, 34, 34);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*need to adjust the shadow while removing the borders*/
+
+
 }
+
+
+
 
 .run-extra-mile-section-writings{
     border: 2px solid rgb(227, 125, 9);
     width: 50%; /* b caz it will take half of its parent */
+    padding-left: 5rem;
+    flex-direction: column;
+   
 
 }
 
-.run-extra-mile-section-image{
-    border: 2px solid rgb(215, 177, 10);
-    width: 50%; /* b caz it will take half of its parent, while parent took half of his parents space */
 
+.run-extra-mile-section-writings h3{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 90%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: .5rem;
+width: 70%;
+margin-top: .5rem;
+margin-bottom: .5rem;
 }
+
+
+.run-extra-mile-section-writings p{
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+width: 70%;
+margin-bottom: .5rem;
+   
+    }
+
+    .join-now-btn-in-run-extra-mile-sec{color: rgb(255, 255, 255);
+   
+
+        border-radius: 46px;
+        background: rgb(230, 83, 60);
+        /* this button has overridden class from join club now button , then adjusted paddings */
+        padding: 12px 20px 12px 20px; 
+        text-decoration: none;
+    }  
+
+ .run-extra-mile-section-image-container {
+        border: 2px solid rgb(215, 177, 10);
+        width: 50%; /* b caz it will take half of its parent, while parent took half of his parents space */
+    
+    }
+
+.run-extra-mile-section-image {
+
+  
+    height: 14rem;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+    }
+    .run-extra-mile-section-image img{
+
+        height: calc(14rem - 1rem);
+        width: 100%;
+        
+    border-radius: 15px;
+  
+    }
+
+
+
+
+
+
 /* trainig and ex section-------------------*/
 .training-and-ex-section{
     flex-direction: column;
@@ -661,6 +738,8 @@ display: none;
     position:static;
     border: 2px solid green; /* need to rmv ltr , just added to show up the box*/
     width: 100%;height: 33rem;
+
+
 }
 
 
@@ -843,5 +922,107 @@ border-radius: 100%;
 .habit-section-img-container{
     flex-direction: column;
 }
+
+
+/* run extra mile section - ----------------- media q small device */
+
+.run-extra-mile-section{
+    border: 2px solid rgb(163, 5, 242);
+    width: 90%;
+    margin: 0 auto;
+  
+    margin-top: 2rem;
+  
+    justify-content: space-around; /* as its children taking up 100% of its space , 50-50, they do not have space to leave around*/
+
+
+    border-radius: 18px;
+
+    background: rgb(34, 34, 34);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*need to adjust the shadow while removing the borders*/
+    flex-direction: column;
+
+
+}
+
+
+
+
+.run-extra-mile-section-writings{
+    border: 2px solid rgb(227, 125, 9);
+    width: auto; /* Q? I wanted to use calc(100%-5rem) (since i have padding left 5rem)but it is not working it is taking margin right and shrinking from right side i did not understand it, thn just adjusted with auto, for this reason i could not keep the button at the middle using margin 0 auto then i adjusted it using padding 3rem to keep it in the middle*/
+    padding-left: 5rem;
+    flex-direction: column;
+   
+
+}
+
+
+.run-extra-mile-section-writings h3{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 90%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: .5rem;
+width: 70%;
+margin-top: .5rem;
+margin-bottom: .5rem;
+}
+
+
+.run-extra-mile-section-writings p{
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+width: 70%;
+margin-bottom: .5rem;
+   
+    }
+
+    .join-now-btn-in-run-extra-mile-sec{color: rgb(255, 255, 255);
+   
+
+        border-radius: 46px;
+       
+        /* this button has overridden class from join club now button , then adjusted paddings */
+        padding: 12px 40px 12px 40px; 
+        text-decoration: none;
+        margin: 0 1rem 0 3rem; /*i could not center the button using margin auto so did it manually, */
+      
+    }  
+
+ .run-extra-mile-section-image-container {
+      
+        width: 100%; 
+    
+    }
+
+.run-extra-mile-section-image {
+
+  
+    height: 14rem;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+    }
+    .run-extra-mile-section-image img{
+
+        height: calc(14rem - 1rem);
+        width: 100%;
+        
+    border-radius: 15px;
+  
+    }
+
 
 }
