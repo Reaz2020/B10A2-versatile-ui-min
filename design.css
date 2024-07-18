@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama-nueva');
+
+                
+
 .font-family-inter{
     font-family: "Inter", sans-serif;
     color: white;
@@ -30,6 +34,8 @@ background-color:rgb(7, 6, 6);
     border: 1px solid red; /* need to rmv ltr , just added to show up the box*/
     margin: 0 auto;
     justify-content: space-between;
+
+    background: linear-gradient(90deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); /* learned from AI*/
   
 
 }
@@ -125,6 +131,8 @@ background: rgb(230, 83, 60);
     justify-content: space-between;
     
     margin: 0 auto;
+
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
 .banner-content-writing-container{
@@ -135,11 +143,135 @@ background: rgb(230, 83, 60);
 }
 
 .banner-content-image-container{
+    position:relative;
     border: 2px solid green; /* need to rmv ltr , just added to show up the box*/
     width: 40%;
 
 }
+/* .banner-content-image-container img{
+    z-index: -1;
+} */
 
+.banner-title{
+
+color: rgb(255, 255, 255);
+
+
+                                                
+
+font-size: 5rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.banner-para{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+.shape{
+    font-family: 'Miama Nueva', sans-serif;
+}
+
+
+.join-club-button{
+/* Join Club Now! */
+position: static;
+width: 131px;
+height: 22px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 16px 40px 16px 40px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.dounload-app-btn{
+    background-color: black;
+    border: 1px solid white;
+}
+.banner-sec-button-container{
+ 
+   
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.banner-content-image-container{
+    background-image:url('/images/Images\ 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.card-on-banner-img-1{
+    position: relative;
+    /* z-index: 1; */
+    transform: translate(-15%, 440%);
+
+    width: 205px;
+    height: 96px;
+
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+
+
+
+
+}
+
+.card-on-banner-img-2{
+    position: relative;
+    transform: translate(140%, 20%);
+    
+
+
+
+}
+.card-1-header{
+
+color: rgb(255, 255, 255);
+
+font-size: 2rem;
+font-weight: 900;
+text-align: left;
+
+margin: 0 0 0 0 ;
+padding: 1rem 0 0 0;
+
+}
+.card-1-para{
+color: rgba(255, 255, 255, 0.65);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+text-align: left;
+
+margin: 0 0 0 0 ;
+padding: .5rem 0 0 0;
+}
 /* habit-section */
 
 .habit-section{
