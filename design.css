@@ -2,22 +2,24 @@
 
 .font-family-inter{
     font-family: "Inter", sans-serif;
+    color: white;
 }
 
 .body{
 width: 100%;
 margin: 0 auto;
-border: 1px blue solid;
+border: 1px blue solid; /* need to rmv ltr , just added to show up the box*/
 background-color:rgb(7, 6, 6);
 }
 
 
 /* shared styles */
 
-.display-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.display-flex {
+    display: flex;   
+   
+
+  
 }
 
 
@@ -25,11 +27,14 @@ background-color:rgb(7, 6, 6);
 
 .header-section{
     width:90%;
-    border: 1px solid red;
+    border: 1px solid red; /* need to rmv ltr , just added to show up the box*/
     margin: 0 auto;
-   
+    justify-content: space-between;
+  
 
 }
+
+
 
 .header-section-heading{
 
@@ -46,23 +51,28 @@ background-color:rgb(7, 6, 6);
 
 .header-section-nav-list{
     justify-content: flex-start;
+
+    align-items: center;
    
     gap:2rem;
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1); /* need to rmv ltr , just added to show up the box*/
     border-radius: 39px;
     padding: 0  1rem 0 0;
+    list-style: none;
+
 
 }
 
-.fa-bars{
-    
-    color: white;
-    font-size: 1.5rem;
+.fa-bars{ 
+
+    /* interestingly even though i have given this display none, sometimes it comes , sometimes not, that is why i have given it a color black so i never see it here, it comes if i refresh the page otherwise do not come  */
+    color: black;
     display: none;
-
-
+    
 }
+
+
 
 
 
@@ -74,9 +84,16 @@ font-weight: 400;
 line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
-
 text-decoration: none;
+
+
 }
+
+.service-button, .contact-button, .about-button {
+    padding-top: 4rem;
+}
+
+
 
 .home-button{
     /* Frame 4 */
@@ -101,6 +118,202 @@ background: rgb(230, 83, 60);
 
 }
 
+/* banner-section ----- default ------*/
+
+.banner-section{
+    width:90%;
+    justify-content: space-between;
+    
+    margin: 0 auto;
+}
+
+.banner-content-writing-container{
+    border: 2px solid green; /* need to rmv ltr , just added to show up the box*/
+    width: 40%;
+  
+   
+}
+
+.banner-content-image-container{
+    border: 2px solid green; /* need to rmv ltr , just added to show up the box*/
+    width: 40%;
+
+}
+
+/* habit-section */
+
+.habit-section{
+    border: 2px solid green; /* need to rmv ltr , just added to show up the box*/
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+
+}
+
+.habit-section-writing-container{
+    border: 2px solid green;
+    width: 100%; /* it needs to take whole width of its parent who tokk 90% of his paren (which is body)*/
+    margin: 0 auto; /*centering*/
+    height: 200px;/* need to rmv ltr , just added to show up the box*/
+
+}
+
+.habit-section-img-container{
+    border: 2px solid green;
+    width: 100%; /* it needs to take whole width of its parent who tokk 90% of his paren (which is body)*/
+    margin: 0 auto; /*centering*/
+    height: 200px;  /* need to rmv ltr , just added to show up the box*/
+}
+
+
+/* run-extra-mile-section */
+
+.run-extra-mile-section{
+    border: 2px solid rgb(163, 5, 242);
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;  /* need to rmv ltr*/
+    margin-top: 2rem;
+  
+    justify-content: space-around; /* as its children taking up 100% of its space , 50-50, they do not have space to leave around*/
+
+
+}
+
+.run-extra-mile-section-writings{
+    border: 2px solid rgb(227, 125, 9);
+    width: 50%; /* b caz it will take half of its parent */
+
+}
+
+.run-extra-mile-section-image{
+    border: 2px solid rgb(215, 177, 10);
+    width: 50%; /* b caz it will take half of its parent, while parent took half of his parents space */
+
+}
+/* trainig and ex section-------------------*/
+.training-and-ex-section{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center ;
+
+    border: 2px solid rgb(163, 5, 242);
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;  /* need to rmv ltr*/
+    margin-top: 2rem;
+
+}
+
+.training-and-ex-section-writing{
+    border: 2px solid rgb(227, 125, 9);
+    width: 50%; /* b caz it will take half of its parent */
+
+}
+
+.training-and-ex-section-image{
+    border: 2px solid rgb(215, 177, 10);
+    width: 50%; /* b caz it will take half of its parent, while parent took half of his parents space */
+
+}
+
+
+.bmi-section{
+    border: 2px solid rgb(163, 5, 242);/* need to rmv ltr*/
+    width: 40%;
+    margin: 0 auto;
+    text-align: start;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+/* bmi calc form section -----------------*/
+
+.bmi-calculation-sec{
+    justify-content:space-around;
+  
+    width: 100%;
+    height: 20rem; /* need to take off to adjust auto height */
+    border: 1px green solid;
+
+}
+
+.bmi-cal-chart-container{
+  
+    width: 40%;
+    height: 5rem;/* need to take off to adjust auto height */
+
+    border: 1px rgb(233, 7, 154) solid;
+
+}
+
+.bmi-calculation-form-container{
+    width: 40%;
+    height: 5rem;/* need to take off to adjust auto height */
+    border: 1px rgb(233, 7, 154) solid;
+
+}
+
+/* meet our team section ------------------*/
+.meet-our-team-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid rgb(233, 88, 5);/* need to rmv ltr*/
+}
+
+.meet-our-team-writing-cotainer{
+    text-align: center;
+}
+/* footer section. ------------------------- */
+
+.footer-section {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: 2px solid rgb(233, 88, 5);/* need to rmv ltr*/
+
+    text-align: center;
+
+}
+
+.footer-section-writing-and-nav-container{
+    justify-content:center;
+ 
+}
+
+.footer-section-writing{
+  
+    border: 2px solid rgb(233, 88, 5);/* need to rmv ltr*/
+    width: 26% ;
+
+
+    text-align: left;
+    padding-left: 2rem;
+
+}
+
+.footer-section-nav-container-1{
+    border: 2px solid rgb(233, 88, 5);/* need to rmv ltr*/
+    width: 26% ;
+
+    text-align: left;
+    padding-left: 2rem;
+
+}
+
+.footer-section-nav-container-2{
+    border: 2px solid rgb(233, 88, 5);/* need to rmv ltr*/
+    width: 26% ;
+
+    text-align: left;
+    padding-left: 2rem;
+}
+
+
 
 /* small device upto 576px */
 
@@ -108,13 +321,16 @@ background: rgb(230, 83, 60);
 
     /* header section ------------*/
 
-   
+   header{
+    margin-top: 0px;
+    padding: 0 0 0 0;
+   }
 
 .header-section{
     width:80%;
     border: none;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding-left: 0;
     justify-content: space-between;
    
@@ -123,15 +339,9 @@ background: rgb(230, 83, 60);
 
 .header-section-heading{
 
- 
     color: rgb(230, 83, 60);
     font-size: 2rem;
     font-weight: 800;
-  
-
-
-   
-
 
 }
 
@@ -147,6 +357,8 @@ background: rgb(230, 83, 60);
 .fa-bars{  
  display: block;
  font-size: 2rem;
+ color: white;
+ 
 }
 
 
@@ -155,6 +367,8 @@ background: rgb(230, 83, 60);
 display: none;
 }
 
+
+/* banner-section */
 
 
 
