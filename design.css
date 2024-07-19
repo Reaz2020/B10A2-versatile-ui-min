@@ -865,24 +865,59 @@ margin-bottom: 0;
 
 }
 
-.footer-section-nav-container-1{
+.footer-section-heading{
+    font-size:4rem ;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+.footer-section-para{
+
+}
+.footer-section-nav-container{
     border: 2px solid rgb(233, 88, 5);/* need to rmv ltr*/
     width: 26% ;
 
     text-align: left;
     padding-left: 2rem;
+    flex-direction: column;
 
 }
 
-.footer-section-nav-container-2{
-    border: 2px solid rgb(233, 88, 5);/* need to rmv ltr*/
-    width: 26% ;
+.footer-sec-nav-header{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 120%;
 
+text-align: left;
+    
+}
+
+.footer-section-nav-container a{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
     text-align: left;
-    padding-left: 2rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    
 }
 
+.footer-sec-solid-lind-and-all-rights-container p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+}
 
+.horizontal-line{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
 
 /* small device upto 576px */
 
@@ -992,7 +1027,7 @@ margin-top: 1.2rem;
 
 .banner-para{
     
-    color: rgba(255, 255, 255, 0.5);
+color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
 font-size: 16px;
 font-weight: 400;
@@ -1330,6 +1365,14 @@ margin-bottom: .5rem;
         height: 24rem;
     }
 
+/* footer-section */
 
+.footer-section-writing-and-nav-container{
+    flex-direction: column;
+}
+
+.footer-section-writing , .footer-section-nav-container {
+    width: auto;
+}
 
 }
