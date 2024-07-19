@@ -12,7 +12,7 @@
 .body{
 width: 100%;
 margin: 0 auto;
-border: 1px blue solid; /* need to rmv ltr , just added to show up the box*/
+
 background-color:rgb(7, 6, 6);
 }
 
@@ -31,7 +31,7 @@ background-color:rgb(7, 6, 6);
 
 .header-section{
     width:90%;
-    border: 1px solid red; /* need to rmv ltr , just added to show up the box*/
+
     margin: 0 auto;
     justify-content: space-between;
 
@@ -62,7 +62,7 @@ background-color:rgb(7, 6, 6);
    
     gap:2rem;
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1); /* need to rmv ltr , just added to show up the box*/
+ 
     border-radius: 39px;
     padding: 0  1rem 0 0;
     list-style: none;
@@ -138,7 +138,7 @@ background: rgb(230, 83, 60);
 }
 
 .banner-content-writing-container{
-    border: 2px solid green; /* need to rmv ltr , just added to show up the box*/
+ 
     width: 40%;
     flex-direction: column;
     gap: .2rem;
@@ -150,7 +150,7 @@ background: rgb(230, 83, 60);
 
 .banner-content-image-container{
     position:relative;
-    border: 2px solid green; /* need to rmv ltr , just added to show up the box*/
+   
     width: 40%;
 
 }
@@ -335,7 +335,7 @@ border-radius: 100%;
 /* habit-section */
 
 .habit-section{
-    border: 2px solid green; /* need to rmv ltr , just added to show up the box*/
+  
     width: 90%;
     margin: 0 auto;
     margin-top: 1rem;
@@ -343,7 +343,7 @@ border-radius: 100%;
 }
 
 .habit-section-writing-container{
-    border: 2px solid green;
+  
     width: 100%; /* it needs to take whole width of its parent who tokk 90% of his paren (which is body)*/
     margin: 0 auto; /*centering*/
     height: auto;/* need to rmv ltr , just added to show up the box*/
@@ -377,7 +377,7 @@ padding: 0 0 0 0;
 }
 
 .habit-section-img-container{
-    border: 2px solid green;
+   
     width: 100%; /* it needs to take whole width of its parent who tokk 90% of his paren (which is body)*/
     margin: 0 auto; /*centering*/
      /* need to rmv ltr , just added to show up the box*/
@@ -387,7 +387,7 @@ padding: 0 0 0 0;
 }
 
 .habit-section-image-card{
-  border: 1px solid blue;
+
     flex-direction: column;
     align-items: center;
 }
@@ -431,7 +431,7 @@ padding: 0 0 0 0;
 /* run-extra-mile-section */
 
 .run-extra-mile-section{
-    border: 2px solid rgb(163, 5, 242);
+   
     width: 90%;
     margin: 0 auto;
   
@@ -452,7 +452,7 @@ padding: 0 0 0 0;
 
 
 .run-extra-mile-section-writings{
-    border: 2px solid rgb(227, 125, 9);
+   
     width: 50%; /* b caz it will take half of its parent */
     padding-left: 5rem;
     flex-direction: column;
@@ -500,7 +500,7 @@ margin-bottom: .5rem;
     }  
 
  .run-extra-mile-section-image-container {
-        border: 2px solid rgb(215, 177, 10);
+    
         width: 50%; /* b caz it will take half of its parent, while parent took half of his parents space */
     
     }
@@ -536,7 +536,8 @@ margin-bottom: .5rem;
     justify-content: flex-start;
     align-items:center ;
 
-    border: 2px solid rgb(163, 5, 242);
+ 
+    
     width: 90%;
     margin: 0 auto;
     height: 200px;  /* need to rmv ltr*/
@@ -545,13 +546,13 @@ margin-bottom: .5rem;
 }
 
 .training-and-ex-section-writing{
-    border: 2px solid rgb(227, 125, 9);
+   
     width: 50%; /* b caz it will take half of its parent */
 
 }
 
 .training-and-ex-section-image{
-    border: 2px solid rgb(215, 177, 10);
+ 
     width: 50%; /* b caz it will take half of its parent, while parent took half of his parents space */
 
 }
@@ -596,7 +597,7 @@ margin-top: 0;
   
     width: 100%;
     
-    border: 1px green solid;
+   
     margin: 0 auto;
     background: rgb(34, 34, 34);
 
@@ -639,7 +640,7 @@ text-align: left;
 .bmi-calculation-form-container{
     width: 40%;
 
-    border: 1px solid red;
+   
 
 }
 form{
@@ -686,11 +687,11 @@ input{
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border: 2px solid rgb(233, 88, 5);/* need to rmv ltr*/
+   
 }
 
 .team-sec-img-container{
-    border: 1px solid gold;
+   
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -843,7 +844,7 @@ margin-bottom: 0;
     width: 100%;
     margin: 0 auto;
     margin-top: 1rem;
-    border: 2px solid rgb(233, 88, 5);/* need to rmv ltr*/
+  
 
     text-align: center;
 
@@ -856,7 +857,7 @@ margin-bottom: 0;
 
 .footer-section-writing{
   
-    border: 2px solid rgb(233, 88, 5);/* need to rmv ltr*/
+   
     width: 26% ;
 
 
@@ -874,7 +875,7 @@ margin-bottom: 0;
 
 }
 .footer-section-nav-container{
-    border: 2px solid rgb(233, 88, 5);/* need to rmv ltr*/
+  
     width: 26% ;
 
     text-align: left;
@@ -988,7 +989,7 @@ display: none;
 }
 
 .banner-content-writing-container{
-    border: 2px solid green; /* need to rmv ltr , just added to show up the box*/
+ 
     width: 100%;
     flex-direction: column;
     gap: .2rem;
@@ -1001,7 +1002,7 @@ display: none;
 
 .banner-content-image-container{
     position:static;
-    border: 2px solid green; /* need to rmv ltr , just added to show up the box*/
+   
     width: 100%;height: 33rem;
 
 
@@ -1192,7 +1193,7 @@ border-radius: 100%;
 /* run extra mile section - ----------------- media q small device */
 
 .run-extra-mile-section{
-    border: 2px solid rgb(163, 5, 242);
+    
     width: 90%;
     margin: 0 auto;
   
