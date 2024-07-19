@@ -694,7 +694,7 @@ input{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 4rem;
+    gap: 2rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
     grid-template-areas: 
@@ -703,18 +703,138 @@ input{
    
 }
 
-.meet-our-team-img1 img , .meet-our-team-img2 img, .meet-our-team-img3 img,
-.meet-our-team-img4 img , .meet-our-team-img5 img, .meet-our-team-img6 img{
-width: 100%;
-height: 100%;
-object-fit: cover;
-border-radius: 4rem;
 
 
+
+
+.meet-our-team-img1 { 
+background-image: url('images/trainer1.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-size: 100%;
+border-radius: 12%;
+justify-content: flex-end;
+flex-direction: column;
+}
+
+
+
+.meet-our-team-img2 {
+
+   border-radius: 10%;
+   background-image: url('images/trainer2.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   justify-content: flex-end;
+flex-direction: column;
+   }
+
+.meet-our-team-img3 {
+  
+   border-radius: 12%;
+   background-image: url('images/trainer3.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-size: 100%;
+
+   justify-content: flex-end;
+   flex-direction: column;
+   }
+
+.meet-our-team-img4 {
+ 
+   border-radius: 12%;
+   background-image: url('images/trainer4.png');
+   background-size: cover;
+   background-position: center;                  
+   background-repeat: no-repeat;
+   justify-content: flex-end;
+   flex-direction: column;
+
+   }
+
+.meet-our-team-img5 {
+    height: 24rem;
+  
+   border-radius: 12%;
+   background-image: url('images/trainer5.png');
+  
+   background-repeat: no-repeat;
+   background-size: 100%;
+   justify-content: flex-end;
+flex-direction: column;
+   }
+
+   .meet-our-team-img6 {
+    border-radius: 12%;
+    height: auto;
+  
+   background-image: url('images/trainer6.png');
+   
+   background-repeat: no-repeat;
+   background-size: 100%;
+   justify-content: flex-end;
+   flex-direction: column;
+   }
+
+   .team-member-details-container{
+   
+    margin-left: 1rem;
+  
+
+   }
+
+   .team-member-details-container h5{
+   
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+   }
+
+   .team-member-details-container p{
+
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 0;
+   
+  
+
+   }
+
+.meet-our-team-writing-cotainer{
+    text-align: center;
+}
+
+.meet-our-team-writing-cotainer h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+margin-bottom: 0;
 
 }
 
-.meet-our-team-writing-cotainer{
+.meet-our-team-writing-cotainer p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
     text-align: center;
 }
 /* footer section. ------------------------- */
@@ -1181,7 +1301,34 @@ margin-bottom: .5rem;
 
 
 
+/* meet our team section */
+/* .team-sec-img-container{
+    border: 1px solid gold;
+   
+ 
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 
+    grid-template-areas: 
+    "meet-our-team-img1",
+    "meet-our-team-img2"   ,
+    "meet-our-team-img3" ,
+    "meet-our-team-img4",
+    " meet-our-team-img5",
+    "meet-our-team-img6" 
+   
+} */
+
+.team-sec-img-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.meet-our-team-img1, .meet-our-team-img2 , .meet-our-team-img3 ,
+    .meet-our-team-img4 , .meet-our-team-img5 , .meet-our-team-img6{
+        height: 24rem;
+    }
 
 
 
