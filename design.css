@@ -21,7 +21,7 @@ background-color:rgb(7, 6, 6);
 
 .display-flex {
     display: flex;   
-   
+    
 
   
 }
@@ -227,7 +227,7 @@ text-align: left;
 }
 
 .banner-content-image-container{
-    background-image:url('images/Images\ 2.png');
+    background-image:url('../images/Images\ 2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -549,18 +549,38 @@ margin-bottom: .5rem;
 
 }
 
+
 .in-store-product-section-writing{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.in-store-product-section-writing h2{
 text-align: center;
 
 width: 95%; /* b caz it will take half of its parent */
 
-font-size: 1.5rem;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.3px;
 
+
+
+
+
+
+color: rgb(255, 255, 255);
+
+font-size: 48px;
+font-weight: 900;
+line-height: 90%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: .5rem;
 width: 70%;
+margin-top: .5rem;
 margin-bottom: .5rem;
+
+
+
+
 
 }
 
@@ -575,8 +595,8 @@ margin-bottom: .5rem;
  
 
 
-    justify-items: center; /* Center horizontally */
-    align-items: center;   /* Center- vertically */
+    justify-items: center; /* Centering horizontally */
+    align-items: center;   /* Center vertically */
     height: 400px;
   
 
@@ -673,6 +693,8 @@ margin-top: 0%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-top: 0px;
+    
 }.in-store-product-image-and-price-container8{
     width: 150px;
     height: 130px;
@@ -1477,7 +1499,7 @@ margin-bottom: .5rem;
         /* this button has overridden class from join club now button , then adjusted paddings */
         padding: 12px 40px 12px 40px; 
         text-decoration: none;
-        margin: 0 1rem 0 4.5rem; /*i could not center the button using margin auto so did it manually, */
+        /*i could not center the button using margin auto so did it manually, */
       
     }  
 
@@ -1506,6 +1528,23 @@ margin-bottom: .5rem;
     border-radius: 15px;
   
     }
+/*in-store sec media query */
+
+
+.in-store-product-section-writing{
+    
+}
+
+
+
+.in-store-product-section-image {
+display: flex;
+flex-direction: column;
+height: auto;
+align-items: start;
+justify-content: start;
+}
+
 
 /*BMI section*/
 .bmi-section{
@@ -1582,28 +1621,12 @@ margin-bottom: .5rem;
 
 
 
-.in-store-product-section {
+/* .in-store-product-section {
  
     flex-wrap: wrap;
     flex-grow: 1;
-}
-
-.in-store-product-section-image{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-row: auto;
-    height: auto;
-
- 
-    width: 98%; /* b caz it will take half of its parent, while parent took half of his parents space */
-   
- 
+} */
 
 
-    justify-items: center; /* Center horizontally */
-    align-items: center;   /* Center- vertically */
-    
-
-}
 
 }
