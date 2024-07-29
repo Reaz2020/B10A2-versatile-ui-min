@@ -231,7 +231,7 @@ text-align: left;
     /* background-image:url('.\images/Images\ 2.png'); */ /*git- do not work ,local do not work*/
     /* background-image:url('..\images/Images\ 2.png'); */ /*git do not work ,local do not work*/
     /* background-image:url('../images/Images\ 2.png'); */ /*git do not work ,local do not work*/
-    background-image:url('./images/Images\ 2.png');  /*git , local work*/
+    background-image:url('./images/Images\ 2.png');  /*git worked , local work*/
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 0.1px;
@@ -241,7 +241,7 @@ text-align: left;
 
 .card-on-banner-img-1{
     position: relative;
-    transform: translate(28%, 345%);
+    transform: translate(-58%, 245%);
 
     width: 10rem;
     height: 5rem;
@@ -264,7 +264,7 @@ padding: .5rem .5rem .5rem .5rem;
 .card-on-banner-img-2{
     /* positioned the card on the banner image */
     position: relative;
-    transform: translate(195%, -15%);
+    transform: translate(95%, -15%);
 
     /* inside the card everything should start at the begaining then added padding to centre the things inside it */
     flex-direction: column;
